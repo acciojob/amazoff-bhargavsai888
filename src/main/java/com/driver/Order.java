@@ -18,6 +18,9 @@ public class Order {
     public String getId() {
         return id;
     }
+    public Order(){
+
+    }
 
     public int getDeliveryTime() {return deliveryTime;}
 }
